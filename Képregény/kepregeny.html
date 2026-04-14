@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Képregény Világ</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: red;
+			 color: yellow;
+        }
+
+        header {
+            background: linear-gradient(to right, #111, #333);
+            color: red;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: yellow;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: blue;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: blue;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .grid .card {
+            flex: 1 1 300px;
+        }
+
+        
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #F0131;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #00bcd4;
+            color: yellow
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Képregény Világ</h1>
+    <p>A hősök és történetek világa</p>
+</header>
+
+<nav>
+    <a href="#tortenet">Történet</a>
+    <a href="#tipusok">Típusok</a>
+    <a href="#karakterek">Karakterek</a>
+    <a href="#erdekessegek">Érdekességek</a>
+</nav>
+
+<section id="tortenet">
+    <div class="card">
+        <h2>A képregények története</h2>
+        <p>
+          Csak  a Marvel és DC karakterekből összesen 110.000 karakterrel rendelkezik.Ezen karakterek létrehozásai  a 19. század végén kezdődött, amikor újságokban jelentek meg rajzos, gyakran humoros történetek. Ezek még egyszerű képsorok voltak, de gyorsan népszerűvé váltak az olvasók körében.
+ </p>
+  <p>
+Az igazi áttörés az 1930-as években történt, amit a képregények aranykorának nevezünk. Ekkor születtek meg az első szuperhősök, például Superman és Batman. Ezek a karakterek hatalmas sikert arattak, és meghatározták a műfaj jövőjét.
+ </p>
+  <p>
+Az 1960-as években, az úgynevezett ezüstkorban, a történetek fejlődtek, és a karakterek emberibbé váltak. Megjelent például Pókember, aki nemcsak hős volt, hanem hétköznapi problémákkal is küzdött, így az olvasók könnyebben azonosultak vele.
+ </p>
+  <p>
+A modern korszakban a képregények még sokszínűbbek lettek. Már nemcsak szuperhősökről szólnak, hanem komoly, felnőtteknek szóló témákat is feldolgoznak. A japán manga különösen népszerű lett világszerte.
+        </p>
+        <p>
+            Az olyan ikonikus karakterek, mint Superman és Batman világszerte ismertté tették a képregényeket.
+            
+        </p>
+    </div>
+</section>
+
+<section id="tipusok">
+    <div class="card">
+        <h2>Képregény típusok</h2>
+        <ul>
+            <li>Szuperhős képregények</li>
+            <li>Manga (japán képregény)</li>
+            <li>Graphic novel</li>
+            <li>Humoros képregények</li>
+            <li>Sci-fi és fantasy képregények</li>
+        </ul>
+        <img src="different comic versions.jpg">
+    </div>
+</section>
+
+<section id="karakterek">
+    <h2>Híres karakterek</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Pókember</h3>
+            <img src="spiderman.jpg">
+            <p>
+                Egy tinédzser, aki a Ben bácsi halála után tanulta meg:
+                "nagy hatalommal nagy felelősség jár".
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Batman</h3>
+            <img src="batman.jpg">
+            <p>
+                Gotham sötét lovagja, aki a szülei halála után a bűn ellen harcol.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Superman</h3>
+            <img src="superman.jpg">
+            <p>
+                Krypton utolsó fia, a remény és igazság szimbóluma.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Invincible</h3>
+            <img src="invincible.jpg">
+            <p>
+                Egy realisztikusabb szuperhős történet, ahol a hős nem tökéletes.
+            </p>
+            <img src="invincible variants.jpg">
+        </div>
+    </div>
+</section>
+
+<section id="erdekessegek">
+    <div class="card">
+        <h2>Miért szeretem én a képregényeket?</h2>
+        <p>
+           Számomra a képregények,, mert látványosak, könnyen olvashatók, és izgalmas történeteket mesélnek el.Teli érdekes karakterekkel akiknek a nehézségeit átlehet érazni és mindenki megtalálhatja a neki való történetet,karaktert.
+        </p>
+       
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Képregény Világ</p>
+</footer>
+
+</body>
+</html>
